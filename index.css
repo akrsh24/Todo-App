@@ -1,0 +1,40 @@
+body {
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    position: absolute;
+    left: 35%;
+    width: 600px;
+    height: 98vh;
+    overflow-y: auto;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+.title {
+    width: inherit;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.todo-input {
+    margin: 20px 5px 5px 5px;
+}
+
+#todo-input-text {
+    width: 585px;
+    margin-bottom: 10px;
+}
+
+#todo-input-btn {
+    position: relative;
+    left: 44%;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 24px;
+}
